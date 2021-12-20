@@ -1,9 +1,278 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <link rel="stylesheet" href=".//CSS/mystyle.css">
-    </head>
-    <body>
-        <script src=".//JavaScript/myscript.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jane Hyland Costumes</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+   
+   <!-- use extend colour palatte -->
+   <link rel="stylesheet" href="https://bootstrap-colors-extended.herokuapp.com/bootstrap-colors.css" />
+   <link rel="stylesheet" href="https://bootstrap-colors-extended.herokuapp.com/bootstrap-colors-themes.css" />
+
+   
+   
+</head>
+<body>
+
+    
+
+    <div class="container-fluid p-1 bg-maroon text-white text-center">
+        <h1>Jane Hyland Costumes</h1>
+        <p>Quality Costume Hire | 0412839233</p>
+    </div>
+    
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Womenswear
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" >Clothes</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menswear
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" >Clothes</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Childrenswear
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" >Clothes</a></li>
+                <li><a class="dropdown-item" href="#">Accessories</a></li>
+                </ul>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                About
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#" >About Jane</a></li>
+                <li><a class="dropdown-item" href="#"> Jane's IMDB Profile</a></li>
+                </ul>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Testimonials</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+            </li>
+            </ul>
+            <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-maroon" type="submit">Search</button>
+            </form>
+        </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <!--carousel-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://placeimg.com/1080/500/animals" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://placeimg.com/1080/500/arch" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://placeimg.com/1080/500/nature" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          
+    
+        <!--description-->
+        <div class="row" style="margin-top: 50px;">
+            <div class="col">
+                <h2 style="color: maroon; text-align:center">JANE HYLAND COSTUMES</h2>
+                <h3 style="color: maroon; text-align:center"> Home to an extensive collection of quality vintage costumes and accessories! </h3>
+                <p>Australia-wide costume hire now available to the General Public, School Productions and TV, Film & Theatre Companies.</p>
+                <div style="margin-top: 30px; margin-bottom:50px; text-align:center" >
+                     <button  type="button" class="btn btn-outline-maroon border-secondary"  onclick="window.location.href = 'about.php'" >About Jane</button>
+                </div>
+                <h3 style="color: maroon;text-align:center ">QUALITY COSTUME HIRE</h3>
+                <h5>  Our costumes have featured in multiple shows including:</h5>
+                <p> Miss Fishers Murder Mysteries - Picnic at Hanging Rock TV Series - Underbelly Razor<br>
+                Underbelly Squizzy - The Making of the Mob Series II - The Luminaries<br>
+                 Lawless the True Story of Bushrangers - The True Story of the Kelly Gang</p>
+                <div style="margin-top: 30px; text-align:center" >
+                     <button class="btn btn-outline-maroon border-secondary"  onclick="window.location.href = 'contact.php'" >Contact</button>
+                </div>
+            </div>
+            
+            <!--category-->
+            <div class="col">
+              <div class="row">
+                <div class="col">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/1396/3887/files/Jane_Hyland_Collection_Images_360x.png?v=1511923713" alt="Card image cap">
+                        <div class="card-body"  style="text-align:center">
+                            <a href="#" class="btn btn-outline-maroon border-secondary">Womenswear</a>
+                        </div>
+                     </div>
+                </div>
+    
+                <div class="col">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/1396/3887/files/Copy_of_Jane_Hyland_Slideshow_360x.png?v=1511923442" alt="Card image cap">
+                        <div class="card-body"  style="text-align:center">
+                            <a href="#" class="btn btn-outline-maroon border-secondary">Menswear</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-100"></div>
+    
+                <div class="col">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/1396/3887/files/Jane_Hyland_Collection_Images_1_360x.png?v=1511923768" alt="Card image cap">
+                        <div class="card-body"  style="text-align:center">
+                            <a href="#" class="btn btn-outline-maroon border-secondary">Childrenswear</a>
+                        </div>
+                     </div>
+    
+                </div>
+                <div class="col">
+                    <div class="card" >
+                        <img class="card-img-top" src="https://cdn.shopify.com/s/files/1/1396/3887/files/6_360x.jpg?v=1622431174" alt="Card image cap">
+                        <div class="card-body" style="text-align:center">
+                            <a href="https://www.etsy.com/shop/janehvintagestudio" class="btn btn-outline-maroon border-secondary">Online store</a>
+                        </div>
+                     </div>
+                </div>
+              </div>
+            </div>
+    
+        </div>
+    
+       <!--Popular product-->
+        <div class="row bg-light" style="margin-top: 50px; margin-bottom:50px">
+            <div class="col">
+                <h3 style="color:maroon">Popular costumes</h3>
+            </div>
+            <div class="col">
+             <a href="product1.php"><img  src="./images/popular1.png" alt="..." class="rounded-circle"></a> 
+            </div> 
+            <div class="col">
+              <img  src="./images/popular2.png" alt="..." class="rounded-circle">
+            </div>
+            <div class="col">
+              <img  src="./images/popular3.png" alt="..." class="rounded-circle">
+            </div>
+        </div>
+    </div>
+
+    <footer class="page-footer font-small blue pt-4">
+    <div class="container-fluid bg-maroon text-white text-center text-md-left">
+    
+        <div class="row">
+        <div class="col-md-3 mt-md-3 mt-3">
+    
+            <h6 class="text-uppercase"><small>JANE HYLAND COSTUMES</small></h6>
+            <p><small>Open By Appointment    
+            <br>Book A Time That Suits You
+            <br>314 Waverley Rd
+            Malvern East VIC 3145
+            <br>0412 839 233</small></p>
+    
+    
+        </div>
+        <div class="col-md-3 mb-md-3 mt-3">
+    
+            <h6 class="text-uppercase"><small>Resources</small></h6>
+            <ul class="list-unstyled">
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"><small>How-To Guides</small></a>
+            </li>
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"> <small>Customer Stories</small></a>
+            </li>
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"> <small>Customer Gallery</small></a>
+            </li>
+            </ul>
+    
+        </div>
+        <div class="col-md-3 mb-md-3 mt-3">
+    
+            <h6 class="text-uppercase"><small>Customer services</small></h6>
+            <ul class="list-unstyled text-white">
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"><small>FQAs</small></a>
+            </li>
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"><small>Terms and Conditions</small></a>
+            </li>
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"><small>Return Policy</small></a>
+            </li>
+            </ul>
+    
+        </div>
+        <div class="col-md-3 mb-md-3 mt-3">
+    
+            <h6 class="text-uppercase"><small>Social</small></h6>
+    
+            <ul class="list-unstyled text-white ">
+            <li>
+                <a class= "text-decoration-none text-white" href="#!" ><small>Facebook</small></a>
+            </li>
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"><small>Instagram</small></a>
+            </li>
+            <li>
+                <a class= "text-decoration-none text-white" href="#!"><small>Return Policy</small></a>
+            </li>
+            </ul>
+    
+        </div>   
+        </div>
+    
+    <div class="footer-copyright text-center py-3"><small>
+    © 2021, Jane Hyland Costumes Powered by Shopify</small></a>
+    </div>
+    
+    </footer>
+    
+     <!-- Latest compiled JavaScript -->
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     </body>
-</html>
+    
+    
+    </html>
