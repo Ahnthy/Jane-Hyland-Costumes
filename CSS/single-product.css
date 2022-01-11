@@ -1,0 +1,31 @@
+.carousel-indicators {
+    display: block;
+    flex-flow: column;
+    top: 0;
+    left: -100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 80px;
+    margin-bottom: 130px;
+}
+
+.carousel-inner {
+    margin-left: 50px;
+}
+.carousel-item {
+    transition: none;
+}
+
+.wish-list{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.card-text, .accordion-button {
+    font-size: 18px;
+}
+.accordion {
+    border: solid 1px lightgray;
+}
