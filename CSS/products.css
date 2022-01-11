@@ -4,3 +4,9 @@
     right: 10px;
     font-size: 20px;
 }
+.card-img-top {
+    max-height: 320px;
+    width: auto;
+    object-fit: contain;
+    padding: 2%;
+}
