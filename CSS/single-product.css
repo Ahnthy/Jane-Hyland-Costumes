@@ -1,20 +1,39 @@
-.carousel-indicators {
-    display: block;
-    flex-flow: column;
-    top: 0;
-    left: -100px;
+@media (min-width: 992px) {
+    .carousel-indicators {
+        display: block;
+        flex-flow: column;
+        top: 0;
+        left: -80px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 80px;
+        margin-bottom: 130px;
+    }
+    .carousel-inner {
+        margin-left: 30px;
+    }
+    .carousel-item {
+        transition: none;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
 }
 
-.carousel-indicators [data-bs-target] {
-    width: 80px;
-    margin-bottom: 130px;
+@media (min-width: 768px) and (max-width: 991px){
+    .carousel-indicators {
+        position: static;
+        top: 0;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 20%;
+    }
 }
 
-.carousel-inner {
-    margin-left: 50px;
-}
-.carousel-item {
-    transition: none;
+@media screen and (max-width: 767px) {
+    .carousel-indicators {
+        display: none;
+    }
 }
 
 .wish-list{
@@ -23,9 +42,10 @@
     right: 10px;
     font-size: 20px;
 }
-.card-text, .accordion-button {
-    font-size: 18px;
+.card {
+    min-height: 27rem;
 }
 .accordion {
     border: solid 1px lightgray;
+    min-height: 21rem;
 }
