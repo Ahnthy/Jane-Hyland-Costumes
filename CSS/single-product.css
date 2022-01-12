@@ -1,0 +1,51 @@
+@media (min-width: 992px) {
+    .carousel-indicators {
+        display: block;
+        flex-flow: column;
+        top: 0;
+        left: -80px;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 80px;
+        margin-bottom: 130px;
+    }
+    .carousel-inner {
+        margin-left: 30px;
+    }
+    .carousel-item {
+        transition: none;
+    }
+    .carousel-control-prev, .carousel-control-next {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .carousel-indicators {
+        position: static;
+        top: 0;
+    }
+    .carousel-indicators [data-bs-target] {
+        width: 20%;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
+
+.wish-list{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.card {
+    min-height: 27rem;
+}
+.accordion {
+    border: solid 1px lightgray;
+    min-height: 21rem;
+}
