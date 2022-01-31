@@ -6,8 +6,8 @@
         left: -80px;
     }
     .carousel-indicators [data-bs-target] {
-        width: 80px;
-        margin-bottom: 130px;
+        width: 65px;
+        margin-bottom: 100px;
     }
     .carousel-inner {
         margin-left: 30px;
@@ -27,6 +27,9 @@
     }
     .carousel-indicators [data-bs-target] {
         width: 20%;
+    }
+    .details .card {
+        margin-top: 160px;
     }
 }
 
@@ -48,4 +51,17 @@
 .accordion {
     border: solid 1px lightgray;
     min-height: 21rem;
+}
+
+.Recommendation .card-list .card{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+}
+.Recommendation .card-img-top {
+    max-height: 320px;
+    width: auto;
+    object-fit: contain;
+    padding: 2%;
 }
